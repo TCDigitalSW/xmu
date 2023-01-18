@@ -22,7 +22,7 @@ Mark
 
 ### 补充：  
 以[appsmith](https://app.appsmith.com/)为例（如下图所示），其通过将页面前端部分拆分成widget及Queries/JS块，其中widget采用的是预置形式，然后通过右侧可编辑的属性栏来进行个性化操作。组件的数据、事件、样式等皆可在右侧编辑栏操作。页面逻辑部分主要集中于Queries/JS块，此处可编写数据及事件逻辑（API、js对象、函数等），进而绑定到对应组件。
-![](./lowcode2.png)
+![](https://fetch-url.deno.dev/?url=https://raw.githubusercontent.com/TCDigitalSW/xmu/main/lowcode2.png)
 
 如果仅是简单的编写几个要求不高的H5页面，上述方案在网页中自己拖拉填写一番，确实可以快速产出页面。然而实际情况往往复杂许多，以至于其在应对这些情况时无从下手（以下仅考虑前端问题）：  
 * 当需要引入社区其他库时，上述方案不支持；

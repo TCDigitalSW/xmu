@@ -11,7 +11,7 @@
 | 能否运行python算法  | 可内嵌 | 可内嵌 | 不可内嵌，需通过子进程或单独的python服务调用对应算法 | 可内嵌（[Sidecar](https://tauri.app/v1/guides/building/sidecar/)） |
 | 数据可视化分析  | 可以实现，交互实现需深入评估 | 未知 | 前端社区既有方案 | 前端社区既有方案 |
 | 插件机制  | 可实现 | 可实现 | 可实现 | 可实现 |
-| 关注度  | 未知 || ![](./image/start-history.png) |
+| 关注度  | 未知 || ![](https://fetch-url.deno.dev/?url=https://raw.githubusercontent.com/TCDigitalSW/xmu/main/image/start-history.png) |
 | License  | [GPL and Riverbank Commercial](https://www.riverbankcomputing.com/static/Docs/PyQt6/introduction.html#license) | [MIT](https://github.com/kivy/kivy/blob/master/LICENSE) | [MIT](https://github.com/electron/electron/blob/main/LICENSE) | [Apache-2.0](https://github.com/tauri-apps/tauri/blob/dev/LICENSE_APACHE-2.0), [MIT](https://github.com/tauri-apps/tauri/blob/dev/LICENSE_MIT) |
 | 风险  | 许可证及现代UI设计，后续数据交互展示难题，热更新问题 | 现代UI设计，数据交互展示难题，kv language学习，热更新问题 | 包大小及性能问题 | Rust学习曲线，内嵌模型二进制文件可行性探索 |
 

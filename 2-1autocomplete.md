@@ -21,7 +21,7 @@ b. 如a中所述，模块二仅为前端展示，替代与否于整体影响不�
 首先需要明确的是：antlr仅用于解析字符串确定正在输入的是什么，而[输入建议](https://github.com/slepowronski/autocomplete/blob/master/src/services/suggestionsNetwork.service.ts)则源于将 **正在输入的相关信息** 传给后端，API返回相应建议（作者在前端进行了模拟）。    
 
 本文作者举了个"key=value"的简单例子，刚好满足[ESTree spec](https://github.com/estree/estree)，即可使用常见的JS解析器（[acorn](https://github.com/acornjs/acorn/tree/master/acorn/)、[babel-parser](https://github.com/babel/babel/tree/main/packages/babel-parser)主要用于webpack，rollup等JS打包工具，此类工具通常需要将JS文件解析成AST后再进行一系列转化处理）。具体转化可参考[在线工具](https://astexplorer.net/),结果如下图。
-![](./AST.png)
+![](https://fetch-url.deno.dev/?url=https://raw.githubusercontent.com/TCDigitalSW/xmu/main/AST.png)
   
 当然，这个方法比较局限，仅适用于恰好满足的情形。如果真要寻找类似于antlr这种通用的语法分析器，[jison](https://github.com/zaach/jison)也不失为另一种选择吧。  
 
